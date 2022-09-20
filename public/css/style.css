@@ -71,9 +71,16 @@ ul li:hover a {
 
 .banner {
   height: 600px;
-  background-image: url("../img/banner_geral.jpg");
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: white;
+  text-shadow: -2px -2px 4px rgb(127, 126, 126);
 }
 
 h2 {
@@ -120,4 +127,9 @@ footer {
   text-align: center;
   font-size: 18px;
   color: var(--main);
+}
+
+.container img {
+  margin: auto;
+  display: block;
 }
